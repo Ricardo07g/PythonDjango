@@ -1,0 +1,29 @@
+{% extends "template.html" %}
+    {% block conteudo %}
+          <div class="aux"></div>
+          <div class="model" >
+              <table class="table table-striped">
+                <thead>
+                  <tr>
+                    <th class="align" >COD BARRAS</th>
+                    <th class="align" >UNIDADE DE MEDIDA</th>
+                    <th class="align" >QUANTIDADE</th>
+                      <th class="align" > </th>
+                  </tr>
+                </thead>
+                <tbody>
+                {% for produto in lista_produtos %}
+                  <tr>
+                      <td class="align" ><a class="btn btn-info" href="{% url 'produto:editaProduto' COD_BARR=produto.COD_BARR %}">{{ produto.COD_BARR }}</a></td>
+                      <td class="align" >{{ produto.UM }}</td>
+                      <td class="align" >{{ produto.EMBALAGEM  }}</td>
+                      <td> <a type="button" class="btn btn-danger" href="{% url 'produto:deletaProduto' COD_BARR=produto.COD_BARR %}"><i class="glyphicon glyphicon-trash"></i></a> </td>
+                  </tr>
+                 {% endfor %}
+
+                </tbody>
+              </table>
+          </div><!-- model -->
+    {% endblock %}
+</body>
+</html>

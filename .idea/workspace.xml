@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="abe2c6aa-6ab1-40f2-9b8e-a6b53ed7338b" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="HTML File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1U8d86SD0VfBv5ycDptiLIe9yjS" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/static/System/images" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Ricardo Pereira\Desktop\SmartPrice\static\System\images" />
+      <recent name="C:\Users\Ricardo Pereira\Desktop\SmartPrice\static" />
+      <recent name="C:\Users\Ricardo Pereira\Desktop\SmartPrice\static\System\css" />
+      <recent name="C:\Users\Ricardo Pereira\Desktop\SmartPrice\SmartPrice\accounts\templates\accounts" />
+      <recent name="C:\Users\Ricardo Pereira\Desktop\SmartPrice\templates" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Ricardo Pereira\Desktop\SmartPrice\SmartPrice" />
+      <recent name="C:\Users\Ricardo Pereira\Desktop\SmartPrice\SmartPrice\produto\templates\produtos" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="SmartPrice" type="Python.DjangoServer" factoryName="Django server">
+      <module name="SmartPrice" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="SmartPrice.settings" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="abe2c6aa-6ab1-40f2-9b8e-a6b53ed7338b" name="Default Changelist" comment="" />
+      <created>1574741993854</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1574741993854</updated>
+      <workItem from="1574742024366" duration="11743000" />
+      <workItem from="1574787695654" duration="249000" />
+      <workItem from="1574787968640" duration="6401000" />
+      <workItem from="1574796497677" duration="77000" />
+      <workItem from="1574799535997" duration="36701000" />
+      <workItem from="1574875908796" duration="48034000" />
+      <workItem from="1575050244394" duration="9927000" />
+      <workItem from="1575068677104" duration="4827000" />
+      <workItem from="1575088198305" duration="169000" />
+      <workItem from="1575294474497" duration="12071000" />
+      <workItem from="1575320184416" duration="996000" />
+      <workItem from="1575334945149" duration="684000" />
+      <workItem from="1575395849918" duration="254000" />
+      <workItem from="1575396236943" duration="94000" />
+      <workItem from="1575411036742" duration="1082000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1322" height="134" key="GridCell.Tab.0.bottom" timestamp="1575415885903">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="134" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1575415885903" />
+    <state width="1322" height="134" key="GridCell.Tab.0.center" timestamp="1575415885903">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="134" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1575415885903" />
+    <state width="1322" height="134" key="GridCell.Tab.0.left" timestamp="1575415885903">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="134" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1575415885903" />
+    <state width="1322" height="134" key="GridCell.Tab.0.right" timestamp="1575415885903">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="134" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1575415885903" />
+  </component>
+</project>

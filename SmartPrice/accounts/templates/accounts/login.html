@@ -1,0 +1,46 @@
+{% load static %}
+
+<html>
+<head>
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+        <link href="{% static 'System/css/login.css' %}" rel="stylesheet">
+         <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.1/build/pure-min.css" integrity="sha384-oAOxQR6DkCoMliIh8yFnu25d7Eq/PHS21PClpwjOTeU2jRSq11vu66rf90/cZr47" crossorigin="anonymous">
+
+
+    <script src="http://mymaplist.com/js/vendor/TweenLite.min.js"></script>
+
+</head>
+<body>
+    <div class="container-fluid">
+
+        <div class="wrapper">
+            <form action="#" class="form-signin" method="POST">
+                {% csrf_token %}
+                {{ form.non_field_errors }}
+                <h2 class="form-signin-heading" id="titles" style="text-align: center"><strong>Smart Price</strong></h2>
+                <hr>
+                {% for field in form %}
+                    {{ field.label_tag  }}
+                    <br>
+                    {{ field }}
+                    <br>
+                    {{ field.errors }}
+                    <br>
+                    <!--
+              <input type="text" class="form-control" name="username" placeholder="Email Address" required="" autofocus="" />
+              <input type="password" class="form-control" name="password" placeholder="Password" required=""/>
+              -->
+                {% endfor %}
+                <hr>
+              <button class="btn btn-lg btn-primary btn-block" type="submit">Login</button>
+            </form>
+        </div>
+
+    </div>
+
+</body>
+
+
+</html>

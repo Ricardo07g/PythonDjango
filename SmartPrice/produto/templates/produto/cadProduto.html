@@ -1,0 +1,40 @@
+{% extends "template.html" %}
+    {% block conteudo %}
+        <!-- /#page-content-wrapper -->
+          <div class="container-fluid">
+          <div class="col-md-4 col-md-offset-4">
+            <div class="model" >
+          {% if is_valid %}
+              <div class="alert alert-success">
+                  Produto Cadastrado com <strong>Sucesso!</strong>
+                </div>
+                {% endif %}
+                  <form  action="#" class="pure-form pure-form-aligned pure-form-stacked" method="POST">
+                  {% csrf_token %}
+                  <fieldset>
+                      {% for campo in formulario %}
+                      <div class="form-group form-group-lg ">
+                          {{ campo.label_tag }}
+                          {{ campo }}
+                          {{ campo.errors }}
+                      </div>
+                      {% endfor  %}
+                    <tr>
+
+                        <td>
+                            <button type="submit" class="btn btn-primary btn-lg btn-block"><i class="glyphicon glyphicon-ok"></i>  Cadastrar</button>
+                        </td>
+                        <td>
+                            <a class="btn btn-success btn-lg btn-block" href="{% url 'core:index' %}"><i class="glyphicon glyphicon-arrow-left"></i>  Voltar</a>
+                        </td>
+                    </tr>
+                  </fieldset>
+                  </form>
+            </div>
+          </div>
+          </div>
+
+        <!--/#page-content-wrapper -->
+    {% endblock %}
+</body>
+</html>

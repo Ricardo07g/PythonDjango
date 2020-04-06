@@ -1,0 +1,112 @@
+{% extends "template.html" %}
+    {% block conteudo %}
+        <!-- /#page-content-wrapper -->
+          <div class="container-fluid">
+           <!-- <div class="col-md-4 col-md-offset-4"> -->
+            <br>
+          <div id="Estilo">
+              <div class="container">
+                  <h3 style="text-align: center"><strong>Notas & Atualizações</strong></h3>
+                  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                      <li data-target="#myCarousel" data-slide-to="1"></li>
+                      <li data-target="#myCarousel" data-slide-to="2"></li>
+                    </ol>
+
+                    <!-- Wrapper for slides -->
+                      <div class="carousel-inner">
+                  <div class="item active">
+                    <img src="/static/System/images/imagem03.png" alt="Los Angeles" style="width:100%;">
+                    <div class="carousel-caption">
+                      <!--<h3>TESTE</h3>
+                      <p>TESTE TESTE TESTE</p>-->
+                    </div>
+                  </div>
+
+                  <div class="item">
+                    <img src="/static/System/images/imagem02.gif" alt="Chicago" style="width:100%;">
+                    <div class="carousel-caption">
+                      <h3>ATUALIZAÇÕES</h3>
+                      <p>Nossa nova Versão 1.4 está repleta de novas funcionalidades</p>
+                    </div>
+                  </div>
+
+                  <div class="item">
+                    <img src="/static/System/images/imagem01.jpg" alt="New York" style="width:100%;">
+                    <div class="carousel-caption">
+                      <h3>CORREÇÕES</h3>
+                      <p>Bug's solucionados e melhorias em segurança</p>
+
+                    </div>
+                  </div>
+
+                </div>
+
+                <!-- Left and right controls -->
+                <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                  <span class="glyphicon glyphicon-chevron-left"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                  <span class="glyphicon glyphicon-chevron-right"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+              </div>
+            </div>
+             <br>
+          </div>
+
+        <div id="Estilo">
+            <hr>
+            <h1 style="text-align: center"><i class="glyphicon glyphicon-question-sign green"></i><strong>  FAQ's</strong></h1>
+            <hr>
+            <!--<h3 style="text-align: center"><strong>PERGUNTAS MAIS FRQUENTES</strong></h3>-->
+        </div>
+        <div id="Estilo">
+            <h4> <i class="glyphicon glyphicon-question-sign green"></i> <strong class="green">"Por que unidades de medida não são Pré-cadastradas ?"</strong></h4>
+            <p> <strong>R.:</strong> Permitimos que cada estabelecimento possa manter o cadastro de produtos sem problemas com suas regras de negócios, desta forma o cadastro
+                se torna simplificado e prápido.
+            </p>
+            <br>
+        </div>
+        <div id="Estilo">
+            <h4> <i class="glyphicon glyphicon-question-sign green"></i> <strong class="green">"Por que ao editar um produto o campo do código de barras é bloqueado ?"</strong> </h4>
+            <p> <strong>R.:</strong> O código de barras é o principal identificador de um pruduto, logo se há alguma alteração no código de Barras subentendemos que estão
+                cadastrando um novo produto.
+                <br>
+                <strong>Em casos que o código de um produto necessite ser alterado, sugerimos que contacte nossa equipe de suporte.</strong>
+                <br><br>
+            </p>
+        </div>
+        <div id="Estilo">
+            <h4>  <i class="glyphicon glyphicon-question-sign green"></i> <strong class="green">"Como entrar em contato com o suporte ?"</strong> </h4>
+            <p> <h4 style="text-align: center"><strong> NOSSOS CANAIS DE ATENDIMENTO</strong></h4>
+                <br>
+                <strong>SUPORTE</strong>
+                <br>
+                <strong>seg</strong> a <strong>sex</strong> das <strong>08:00 hs</strong> as <strong>18:00 hs</strong> pelo <strong>telefone 0800 940 324</strong>
+                <br><hr>
+                <strong>CHAT</strong>
+                <br>
+                Fale conosto atravéz do site <strong>smartPrice.com.br</strong>
+                <br><hr>
+                <strong>E-MAIL</strong>
+                <br>
+                Nos mande um suas dúvidas para <strong>sporte@smartPrice.com</strong>
+                <br><br>
+                <!--
+                <hr>
+                em qualquer um dos ambientes citados a cima sanaremos sua dúvidas ou abiremos um chamado para melhor te atender.
+                -->
+            </p>
+        </div>
+
+           <div>
+           <!--</div> -->
+        </div>
+        <!--/#page-content-wrapper -->
+    {% endblock %}
+</body>
+</html>

@@ -1,0 +1,82 @@
+body{
+	background: url("/static/System/images/background_log.jpeg") no-repeat;
+}
+
+/*
+.login-form{
+    padding-top:150px;
+}
+
+
+*/
+
+@import "bourbon";
+
+.wrapper {
+	margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.form-signin {
+  max-width: 380px;
+  padding: 15px 35px 45px;
+  margin: 0 auto;
+  background-color: #fff;
+  border: 1px solid rgba(0,0,0,0.1);
+
+  .form-signin-heading,
+	.checkbox {
+	  margin-bottom: 30px;
+	}
+
+	.checkbox {
+	  font-weight: normal;
+	}
+
+	.form-control {
+	  position: relative;
+	  font-size: 16px;
+	  height: auto;
+	  padding: 10px;
+		@include box-sizing(border-box);
+
+		&:focus {
+		  z-index: 2;
+		}
+	}
+
+	input[type="text"] {
+	  margin-bottom: -1px;
+	  border-bottom-left-radius: 0;
+	  border-bottom-right-radius: 0;
+	}
+
+	input[type="password"] {
+	  margin-bottom: 20px;
+	  border-top-left-radius: 0;
+	  border-top-right-radius: 0;
+	}
+}
+
+.form-signin{
+    border-radius: 7px !important;
+}
+input#id_username{
+    padding: 8px 75px;
+}
+input#id_password{
+    padding: 8px 75px;
+}
+
+h2#titles{
+    font-family: "Times New Roman", Times, serif;
+    font-size: 40px;
+    letter-spacing: 1.2px;
+    word-spacing: 6px;
+    color: #EF580D;
+    font-weight: 700;
+    text-decoration: underline solid #EF580D;
+    font-style: italic;
+    font-variant: normal;
+    text-transform: capitalize;
+}

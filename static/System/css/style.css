@@ -1,0 +1,199 @@
+/* Tela grande */
+@media (min-width: 768px) {
+	.panel-default {
+		margin-left: 10px !important;
+		margin-right: 10px !important;
+	}
+	
+	.alert {
+		margin-left: 10px !important;
+		margin-right: 10px !important;
+	}
+}
+
+.navbar-brand {
+	padding-top: 12px !important;
+}
+
+.aw-link-panel {
+	float: right !important;
+	padding: 0px !important;
+}
+
+.aw-titulo-panel {
+	float: left !important;
+	padding-top: 2px !important;
+}
+
+body {
+  /*min-height: 1000px !important;*/
+  padding-top: 50px !important;
+  background: url("/static/System/images/background_log.jpeg");
+  /*background-color: #EF580D !important;  no-repeat;*/
+}
+
+
+.input-group-addon {
+    padding: 6px 12px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1;
+    color: #3338C6 !important;
+    text-align: center;
+    background-color: #eee;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.navbar-collapse{
+    background-color: #EF580D !important;
+}
+#navbar {
+     background-color: #EF580D !important;
+}
+.navbar-default{
+     background-color: #EF580D !important;
+}
+
+.navbar-fixed-top{
+     background-color: #EF580D !important;
+}
+.navbar{
+    	margin-bottom: 0;
+    	/*background-color: #6312F0 !important;*/
+    	background-color: #EF580D !important;
+    	z-index: 9999;
+    	border: 0;
+    	font-family: Montserrat, sans-serif;
+    	font-size: 12px !important;
+    	letter-spacing: 4px;
+    	border-radius: 0;
+    }
+    
+    .navbar li a, .navbar .navbar-brand {
+    	color: #FFFFFF !important;
+    	/* padding-left: 11px !important; */
+    }
+    
+    .navbar-nav li a:hover, .navbar-nav li.active a {
+    	color: #FFFFFF !important;
+    	background-color: #EF580D !important;
+    	/* border: 2px solid white !important;
+    	border-bottom: 7px !important; */
+    }
+    
+    .navbar-default .navbar-toggle {
+    	border-color: transparent;
+    	color: #ffffff;
+    }
+    
+    .navbar-toggle:hover {
+    	background: white !important;
+    	color: #EF580D !important;
+    	
+    }
+    
+    .navbar-toggle:focus {
+    	background: white !important;
+    	color: #EF580D !important;
+    }
+    
+    .navbar-toggle:hover .icon-bar {
+    	background: #EF580D !important;
+    }
+    
+    .navbar-toggle:focus .icon-bar {
+    	background: #EF580D !important;
+    }
+    
+    .navbar-toggle .icon-bar {
+    	background: white !important;
+    }
+    
+    
+    .jumbotron {
+    padding: 30px 15px;
+    margin-bottom: 30px;
+    color: inherit;
+    background-color: #ffffff !important;
+	
+	}
+	
+	fieldset {
+     background-color: #ffffff !important;
+     border: 1px solid white !important;
+	}
+	
+	.table>thead>tr>th, .table>tbody>tr>th, .table>tfoot>tr>th, .table>thead>tr>td, .table>tbody>tr>td, .table>tfoot>tr>td {
+    padding: 8px;
+    line-height: 1.42857143;
+    vertical-align: top;
+    border-top: 1px solid #ffffff !important;
+	}
+	
+	table {
+    display: table;
+    border-collapse: separate;
+    border-spacing: 2px;
+    border-color: white !important;
+	}
+	
+	.btn-toolbar{
+		 display: flex !important;
+         flex-direction: row !important;
+         justify-content: center !important;
+         align-items: center !important;
+	}
+    .aux{
+         padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    .model{
+        background-color: #FFFFFF;
+        border: 2px solid white;
+        border-radius: 5px;
+    }
+
+    .align{
+        text-align: center;
+        overflow:auto;
+    }
+
+    .modal {
+    text-align: center;
+    padding: 0!important;
+    }
+
+    .modal:before {
+      content: '';
+      display: inline-block;
+      height: 100%;
+      vertical-align: middle;
+      margin-right: -4px;
+    }
+
+    .modal-dialog {
+      display: inline-block;
+      text-align: left;
+      vertical-align: middle;
+    }
+
+a#titles{
+    font-family: "Times New Roman", Times, serif;
+    font-size: 25px;
+    letter-spacing: 1.2px;
+    word-spacing: 6px;
+    color: #FFFFFF;
+    font-weight: 700;
+    text-decoration: underline solid #FFFFFF;
+    font-style: italic;
+    font-variant: normal;
+    text-transform: capitalize;
+}
+div#Estilo{
+    background-color: #FFFFFF;
+    border-radius: 5px;
+}
+
+.green {
+    color: #00eb9b;
+}
